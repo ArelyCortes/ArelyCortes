@@ -13,13 +13,16 @@ El presente ejercicio busca realizar la instalación del ambiente para el desarr
 * Una vez terminada la descarga, da clic en el botón ejecutar para que se ejecute como administrador y prosiga la instalación. 
  ![](img/ejecucion.png)
 
+
 * Acepta términos y condiciones y da clic en el botón siguiente.
- ![](img/terminos.png)
+
+ ![](img/terminos.png)  
 
 * Selecciona la carpeta en donde se instalara el programa y da clic en siguiente:
  ![](img/seleccioncarpeta.png)
 
 * Da clic en siguiente, aquí solo se indica que creara un acceso directo
+
  ![](img/menuinicio.png)
 
 * Selecciona las tareas adicionales que deseas añadir, da clic en siguiente: 
@@ -29,6 +32,7 @@ El presente ejercicio busca realizar la instalación del ambiente para el desarr
 ![](img/instalar.png)
 
 * Una vez instalado, se abre automáticamente Visual Studio Code:
+
 ![](img/instalacioncorrecta.png)
  
 
@@ -38,18 +42,21 @@ El presente ejercicio busca realizar la instalación del ambiente para el desarr
 ![](img/git.png)
 
 * Una vez descargada, da clic en ejecutar como administrador, da clic en “Si”:
+
 ![](img/ejecuciongit.png)
 
 * Acepta la licencia, da clic en Next: 
 ![](img/licenciasgit.png)
 
 * Selecciona la carpeta de destino de instalación, y da clic:
+
 ![](img/carpetagit.png)
 
 * Selecciona los componentes a añadir, da clic en Next:
 ![](img/componentesgit.png
 
 * Selecciona la carpeta de menú de inicio, clic en Next:
+
 ![](img/menugit.png)
 
 * Elige el editor de código con el que desees utilizar Git, en este caso utiliza Visual Studio Code, dar clic en Next:
@@ -62,21 +69,26 @@ El presente ejercicio busca realizar la instalación del ambiente para el desarr
 ![](img/ajustesgit.png)
 
 * Elige el ejecutable SSH, da clic:
+*
 ![](img/ssh.png)
 
 * Elige el el backend de transporte HTTPS, da clic:
+
 ![](img/https.png)
 
 * Configura las líneas de conversiones:  
 ![](img/lineasgit.png)
 
 * Configura el enmulador de la terminal  para usar GIT:
+
 ![](img/terminalgit.png)
 
 * Elige el comportamiento predeterminado para GIT:
+*
 ![](img/comportamiento.png)
 
 * Elige un asistente de credenciales, da clic en Next:
+
 ![](img/credenciales.png)
 
 * Configuración de opciones adicionales:
@@ -149,6 +161,7 @@ Las siguientes preguntas están orientadas a la comprensión del protocolo HTTP.
 * **XML:** permite garantizar el intercambio de cualquier tipo de información sin que ocasione problemas de tipo contenido o tipo presentación. XML están conformadas por elementos, elementos secundarios anidados y atributos que Analytics identifica al analizar un archivo XML. Se muestran en la vista de árbol Estructuras de datos XML, que es una representación jerárquica del archivo XML. Cada estructura de datos 
     * XML está representada por un icono de tabla   y el nombre del elemento 
     * XML y los atributos o elementos anidados que contiene.
+     
 ![](img/xml.png)
 10.	Explicar brevemente el estándar SOAP
 
@@ -182,6 +195,7 @@ Descargar  POSTMAN (aplicación para realizar request como cliente), adjuntando 
     }
 
     Tip: (Marcar la opción “raw” como body)
+   
 ![](img/POSTMAN2.png)
 3.	Realizar nuevamente un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
  ![](img/POSTMAN3.png)

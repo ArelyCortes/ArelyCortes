@@ -46,7 +46,7 @@ El presente ejercicio busca realizar la instalación del ambiente para el desarr
 ![](img/ejecuciongit.png)
 
 * Acepta la licencia, da clic en Next: 
-![](img/licenciasgit.png)
+![](img/licenciagit.png)
 
 * Selecciona la carpeta de destino de instalación, y da clic:
 

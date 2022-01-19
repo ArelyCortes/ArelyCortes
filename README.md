@@ -46,6 +46,7 @@ El presente ejercicio busca realizar la instalación del ambiente para el desarr
 ![](img/ejecuciongit.png)
 
 * Acepta la licencia, da clic en Next: 
+
 ![](img/licenciagit.png)
 
 * Selecciona la carpeta de destino de instalación, y da clic:
@@ -53,7 +54,8 @@ El presente ejercicio busca realizar la instalación del ambiente para el desarr
 ![](img/carpetagit.png)
 
 * Selecciona los componentes a añadir, da clic en Next:
-![](img/componentesgit.png
+
+![](img/componentesgit.png)
 
 * Selecciona la carpeta de menú de inicio, clic en Next:
 
@@ -66,10 +68,11 @@ El presente ejercicio busca realizar la instalación del ambiente para el desarr
 ![](img/let.png)
 
 * Ajuste el entorno PATH, es decir, selecciona como usar GIT, puede ser desde terceros con GIT Bash, posteriormente da clic en Next:
+
 ![](img/ajustesgit.png)
 
 * Elige el ejecutable SSH, da clic:
-*
+
 ![](img/ssh.png)
 
 * Elige el el backend de transporte HTTPS, da clic:
@@ -84,7 +87,7 @@ El presente ejercicio busca realizar la instalación del ambiente para el desarr
 ![](img/terminalgit.png)
 
 * Elige el comportamiento predeterminado para GIT:
-*
+
 ![](img/comportamiento.png)
 
 * Elige un asistente de credenciales, da clic en Next:
@@ -92,9 +95,11 @@ El presente ejercicio busca realizar la instalación del ambiente para el desarr
 ![](img/credenciales.png)
 
 * Configuración de opciones adicionales:
+
 ![](img/opciones.png)
 
 * Instalación  GIT:
+
 ![](img/instalacion.png)
  
 * Una vez finalizada la instalación  completa el asistente de configuración, inicia el GIT Bash, da clic en Finish:
@@ -163,9 +168,10 @@ Las siguientes preguntas están orientadas a la comprensión del protocolo HTTP.
     * XML y los atributos o elementos anidados que contiene.
      
 ![](img/xml.png)
+
 10.	Explicar brevemente el estándar SOAP
 
-    Simple Object Access Protocol-Protocolo estándar basado en el lenguaje XML, define como dos objetos en diferentes procesos se pueden comunicar a través del intercambio de datos XML.
+  imple Object Access Protocol-Protocolo estándar basado en el lenguaje XML, define como dos objetos en diferentes procesos se pueden comunicar a través del intercambio de datos XML
 
 11.	Explicar brevemente el estándar REST Full
 
@@ -197,6 +203,7 @@ Descargar  POSTMAN (aplicación para realizar request como cliente), adjuntando 
     Tip: (Marcar la opción “raw” como body)
    
 ![](img/POSTMAN2.png)
+
 3.	Realizar nuevamente un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
  ![](img/POSTMAN3.png)
  * ¿Qué diferencias se observan entre las llamadas el punto 1 y 3? 

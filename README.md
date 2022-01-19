@@ -47,7 +47,8 @@ El presente ejercicio busca realizar la instalación del ambiente para el desarr
 ![](img/carpetagit.png)
 
 * Selecciona los componentes a añadir, da clic en Next:
-![](img/componentesgit.png)
+![](img/componentesgit.png
+
 * Selecciona la carpeta de menú de inicio, clic en Next:
 ![](img/menugit.png)
 
@@ -189,19 +190,26 @@ Descargar  POSTMAN (aplicación para realizar request como cliente), adjuntando 
 
         EJERCICIO 4
 
-Cambiar el idioma de Trailhead a inglés.
-
 Realizar los siguientes módulos de Trailhead:
 
-* Fundamento de la plataforma Salesforce
-* Fundamentos de Apex y .NET
-* Modelado de datos
-* Fundamentos y base de datos de Apex
-* Desencadenadores de Apex
-* Apex Integration Services
+[* Fundamento de la plataforma Salesforce](https://trailhead.salesforce.com/es-MX/content/learn/modules/platform_dev_basics)
+
+[* Fundamentos de Apex y .NET](https://trailhead.salesforce.com/es-MX/content/learn/modules/apex_basics_dotnet)
+
+[* Modelado de datos](https://trailhead.salesforce.com/es-MX/content/learn/modules/data_modeling)
+
+[* Fundamentos y base de datos de Apex](https://trailhead.salesforce.com/es-MX/content/learn/modules/apex_database)
+
+[* Desencadenadores de Apex](https://trailhead.salesforce.com/es-MX/content/learn/modules/apex_triggers)
+
+[* Apex Integration Services](https://trailhead.salesforce.com/en/content/learn/modules/apex_integration_services)
+
+[Arely trailblazer](https://trailblazer.me/id/acortes52)
 
         EJERCICIO 5
 Explicación conceptualmente, qué datos almacenan en forma estándar y cómo se relacionan el resto (algunos no se relacionan entre sí) cada uno de los siguientes objetos de Salesforce:
+
+
 
 **1. Lead**
 
@@ -248,6 +256,31 @@ Su base de conocimientos de Salesforce se crea a partir de artículos de conocim
 [Diagrama](img/práctica.drawio.png)
 
         EJERCICIO 6
+Realizar las siguientes actividades sobre el Playground 1 del ejercicio 4:
+
+A.	Consultar tu ID haciendo un GET con POSTMAN a este WS:
+https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+
+* Id
+
+![](img/id.png)
+
+B.	Agregar un campo al objeto Contact llamado idprocontacto de tipo texto de 255 caracteres. De la siguiente manera:
+
+* Haga clic en la ficha Object Manager (Gestor de objetos). Desde la lista de objetos en el menú desplegable, => clic en Suggestion (Sugerencia). => clic en la sección Fields & Relationships (Campos y relaciones)=>New, posteriormente le saldra la siguiente ventana en la que pondra el nombre de la etiqueta y el tamaño de la misma.
+
+![](img/idprocontacto.png)
+
+* Seleccione la casilla ""Visible" esto para adjuntar componentes, posteriormente clic en Next y el objeto se habra creado satisfactoriamente.
+
+![](img/visible.png)
+
+* Se redirecciona al inicio, como se observa el objeto se creo y muestra sus características.
+
+![](img/objeto.png)
+
+C.	Desarrollar un trigger para que cuando un usuario Modifica o Crea un contacto de Salesforce completando el campo generado el punto B con el ID del punto A, se invoque al Web Service con el idprocontacto obtenga los datos de email de la respuesta y actualice el campo email del contacto. Usar Playground 1. 
+![](img/prueba.png)
 
         EJERCICIO 7
 ### **Soluciones de Salesforce**

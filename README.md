@@ -290,15 +290,15 @@ B.	Agregar un campo al objeto Contact llamado idprocontacto de tipo texto de 255
 
 * Haga clic en la ficha Object Manager (Gestor de objetos). Desde la lista de objetos en el menú desplegable, => clic en Suggestion (Sugerencia). => clic en la sección Fields & Relationships (Campos y relaciones)=>New, posteriormente le saldra la siguiente ventana en la que pondra el nombre de la etiqueta y el tamaño de la misma.
 
-![](img/idprocontacto.png)
+![](img/idprocontacto.PNG)
 
 * Seleccione la casilla ""Visible" esto para adjuntar componentes, posteriormente clic en Next y el objeto se habra creado satisfactoriamente.
 
-![](img/visible.png)
+![](img/visible.PNG)
 
 * Se redirecciona al inicio, como se observa el objeto se creo y muestra sus características.
 
-![](img/objeto.png)
+![](img/objeto.PNG)
 
 C.	Desarrollar un trigger para que cuando un usuario Modifica o Crea un contacto de Salesforce completando el campo generado el punto B con el ID del punto A, se invoque al Web Service con el idprocontacto obtenga los datos de email de la respuesta y actualice el campo email del contacto. Usar Playground 1. 
 

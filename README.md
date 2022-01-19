@@ -284,7 +284,7 @@ https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
 
 * Id
 
-![](img/id.png)
+![](img/6.1.png)
 
 B.	Agregar un campo al objeto Contact llamado idprocontacto de tipo texto de 255 caracteres. De la siguiente manera:
 
@@ -301,7 +301,8 @@ B.	Agregar un campo al objeto Contact llamado idprocontacto de tipo texto de 255
 ![](img/objeto.png)
 
 C.	Desarrollar un trigger para que cuando un usuario Modifica o Crea un contacto de Salesforce completando el campo generado el punto B con el ID del punto A, se invoque al Web Service con el idprocontacto obtenga los datos de email de la respuesta y actualice el campo email del contacto. Usar Playground 1. 
-![](img/prueba.png)
+
+![](img/email.png)
 
         EJERCICIO 7
 ### **Soluciones de Salesforce**
